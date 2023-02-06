@@ -8,7 +8,7 @@
 
 ## Live Demo 🌐 :
 
-https://reactflix-movie-app-redux-imdb-api.vercel.app/
+https://reactflix-class-typescript.vercel.app/
 
 
 ## Install 📔
