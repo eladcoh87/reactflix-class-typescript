@@ -108,7 +108,7 @@ class Header extends Component<OwnProps, OwnState> {
           <Grid item xs={4}>
             <div className="text-container">
               <form onSubmit={this.searchSubmit} action="">
-                <TextField
+                <TextField className='text-field'
                   value={this.state.searchTerm}
                   onChange={this.searchChange}
                   helperText={this.state.errorMessege}
