@@ -20,7 +20,7 @@ type OwnProps = {
 class MoviePage extends Component<OwnProps> {
   componentDidMount(): void {
     let { id } = this.props.params;
-
+      
     const choosenMovie = getChoosenMovie(id);
 
     choosenMovie.then((data) => this.props.choosenMovieACTIONDIS(data));
