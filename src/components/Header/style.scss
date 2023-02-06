@@ -1,0 +1,63 @@
+.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-4.links-grid.css-gj1fbr-MuiGrid-root {
+  display: flex;
+  align-items: center;
+}
+
+.header-container {
+  background-color: rgba(255, 255, 255, 0.24);
+  padding: 20px 20px;
+  border-bottom: 2px yellow solid;
+
+  a {
+    text-decoration: none;
+  }
+  .links-container {
+    color: rgb(255, 255, 255);
+
+    ul {
+      display: flex;
+      list-style: none;
+      align-items: center;
+      gap: 10px;
+
+      li:hover {
+        cursor: pointer;
+      }
+      .REACTFLIX {
+        color: yellow;
+        font-size: 1.5rem;
+        margin-right: 2rem;
+      }
+    }
+  }
+
+  .form-container {
+    display: flex;
+    justify-content: center;
+  }
+  .form-control {
+    width: 20rem;
+    background-color: white;
+    padding: 7px;
+    border-radius: 10px;
+  }
+
+  .text-container {
+    display: flex;
+    justify-content: flex-end;
+
+    gap: 10px;
+
+    .css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+      background-color: white;
+      padding: 7px;
+      border-radius: 10px;
+    }
+
+    .searchbtn {
+      border-radius: 20px;
+      background-color: yellow;
+      color: black;
+    }
+  }
+}

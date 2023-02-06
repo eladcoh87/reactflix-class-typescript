@@ -1,0 +1,21 @@
+.movie-page-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+
+  .imagecontainer {
+    flex-basis: 50%;
+    text-align: center;
+
+    img {
+      object-fit: cover;
+      width: 40%;
+    }
+  }
+
+  .description {
+    flex-basis: 50%;
+    color: white;
+    line-height: 2rem;
+  }
+}
